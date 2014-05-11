@@ -10,6 +10,8 @@ using System.Text;
 /// </summary>
 public class SocketClient : MonoBehaviour
 {
+    public GameObject SpeakInstructionObject;
+
     private bool isReadingData = false; //確認是否開始進行分析字串
     private string readString;          //接收Server傳送訊息的完整字串
 
@@ -34,14 +36,14 @@ public class SocketClient : MonoBehaviour
     {
         this.process = new Process();
         this.process.StartInfo.FileName = Application.dataPath + @"/SocketServer.exe";
-        this.process.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;  //輸出時記得改Hide
+        this.process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;  //輸出時記得改Hide
         this.process.Start();
     }
 
     // Use this for initialization
     IEnumerator Start()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.0f);
 
         this.ServerConnect();       //對語音辨識伺服器進行連線
         this.ReadServerResponse();  //接收Server的回應
@@ -122,7 +124,62 @@ public class SocketClient : MonoBehaviour
             switch (reStringSplit[0])
             {
                 case "RecognizedWord":     //刪除圖片(接收Server發送的刪除單字)
-
+                    string[] reWordSplit = reStringSplit[1].Split(',');
+                    this.SpeakInstructionObject.GetComponent<TextMesh>().text = "指令：" + reWordSplit[0];
+                    switch (reWordSplit[0])
+                    {
+                        case "放大":
+                            break;
+                        case "縮小":
+                            break;
+                        case "重播":
+                            ModelAnimationController.script.RePlay();
+                            break;
+                        case "停止":
+                            ModelAnimationController.script.Stop();
+                            break;
+                        case "播放":
+                            ModelAnimationController.script.Play(true);
+                            break;
+                        case "暫停":
+                            ModelAnimationController.script.Pause();
+                            break;
+                        case "二分之一速":
+                            ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_HalfSpeed);
+                            break;
+                        case "四分之一速":
+                            ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_QuaterSpeed);
+                            break;
+                        case "切換視角":
+                            SelectViewController.script.ShowSelectView();
+                            break;
+                        case "取消":
+                            SelectViewController.script.CloseSelectView();
+                            break;
+                        case "離開":
+                            Application.LoadLevel("Home");
+                            break;
+                        case "動畫側視圖":
+                            break;
+                        case "動畫正視圖":
+                            break;
+                        case "動畫透視圖":
+                            break;
+                        case "影片側視圖":
+                            break;
+                        case "影片正視圖":
+                            break;
+                        case "上轉":
+                            break;
+                        case "下轉":
+                            break;
+                        case "左轉":
+                            break;
+                        case "右轉":
+                            break;
+                        default:
+                            break;
+                    }
                     break;
                 default:
                     break;

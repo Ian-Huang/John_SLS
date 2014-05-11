@@ -3,13 +3,23 @@ using System.Collections;
 
 public class GameDefinition
 {
+    public const int Animation_NormalSpeed = 4;
+    public const int Animation_HalfSpeed = 2;
+    public const int Animation_QuaterSpeed = 1;
+
     public enum ButtonEvent
     {
+        None = -1,
         Start_Home = 0, Exit_Home = 1,
         足內側向上踢 = 2, 足背向上踢 = 3, 足內側發球 = 4, 足背高腳掃踢發球 = 5, 下壓攻踢 = 6, 倒鉤攻踢 = 7,
-        PreviousPage = 8, NextPage = 9
+        PreviousPage = 8, NextPage = 9,
+        GoHomeScene = 10,
+        NormalSpeed = 11, HalfSpeed = 12, QuaterSpeed = 13,
+        ShowSelectView = 14, CloseSelectView = 20,
+        PlayAnimation = 15, StopAnimation = 16, RePlayAnimation = 17,
+        ZoomIn = 18, ZoomOut = 19,
+        動畫側視圖 = 21, 動畫正視圖 = 22, 動畫透視圖 = 23, 影片側視圖 = 24, 影片正視圖 = 25
     }
-
 
     public enum SpeakInstruction
     {
