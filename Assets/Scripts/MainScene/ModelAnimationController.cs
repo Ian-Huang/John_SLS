@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ModelAnimationController : MonoBehaviour
 {
-    public bool isPlaying;
+    private bool isPlaying;
     private Animator animator;
     public static ModelAnimationController script;
 
@@ -41,6 +41,7 @@ public class ModelAnimationController : MonoBehaviour
     public void Pause()
     {
         this.animator.StartPlayback();
+        this.isPlaying = false;
     }
 
     /// <summary>
@@ -65,6 +66,7 @@ public class ModelAnimationController : MonoBehaviour
         else
         {
             this.animator.StopPlayback();
+            this.isPlaying = true;
         }
     }
 

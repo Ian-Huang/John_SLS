@@ -129,20 +129,26 @@ public class SocketClient : MonoBehaviour
                     switch (reWordSplit[0])
                     {
                         case "放大":
+                            AnimationCameraMoveController.script.CameraZoomIn();
                             break;
                         case "縮小":
+                            AnimationCameraMoveController.script.CameraZoomOut();
                             break;
                         case "重播":
                             ModelAnimationController.script.RePlay();
+                            MovieController.script.RePlayMovie();
                             break;
                         case "停止":
                             ModelAnimationController.script.Stop();
+                            MovieController.script.StopMovie();
                             break;
                         case "播放":
                             ModelAnimationController.script.Play(true);
+                            MovieController.script.PlayMovie(true);
                             break;
                         case "暫停":
                             ModelAnimationController.script.Pause();
+                            MovieController.script.PauseMovie();
                             break;
                         case "二分之一速":
                             ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_HalfSpeed);
@@ -160,22 +166,31 @@ public class SocketClient : MonoBehaviour
                             Application.LoadLevel("Home");
                             break;
                         case "動畫側視圖":
+                            RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.動畫側視圖);
                             break;
                         case "動畫正視圖":
+                            RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.動畫正視圖);
                             break;
                         case "動畫透視圖":
+                            RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.動畫透視圖);
                             break;
                         case "影片側視圖":
+                            RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片側視圖);
                             break;
                         case "影片正視圖":
+                            RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片正視圖);
                             break;
                         case "上轉":
+                            AnimationCameraRotateController.script.CameraRotateUp();
                             break;
                         case "下轉":
+                            AnimationCameraRotateController.script.CameraRotateDown();
                             break;
                         case "左轉":
+                            AnimationCameraRotateController.script.CameraRotateLeft();
                             break;
                         case "右轉":
+                            AnimationCameraRotateController.script.CameraRotateRight();
                             break;
                         default:
                             break;

@@ -50,7 +50,7 @@ public class ButtonController : MonoBehaviour
                 break;
             case GameDefinition.ButtonEvent.PlayAnimation:
                 ModelAnimationController.script.Play(false);
-                MovieController.script.PlayMovie();
+                MovieController.script.PlayMovie(false);
                 break;
             case GameDefinition.ButtonEvent.StopAnimation:
                 ModelAnimationController.script.Stop();
@@ -58,20 +58,40 @@ public class ButtonController : MonoBehaviour
                 break;
             case GameDefinition.ButtonEvent.RePlayAnimation:
                 ModelAnimationController.script.RePlay();
+                MovieController.script.RePlayMovie();
                 break;
             case GameDefinition.ButtonEvent.ZoomIn:
+                AnimationCameraMoveController.script.CameraZoomIn();
                 break;
             case GameDefinition.ButtonEvent.ZoomOut:
+                AnimationCameraMoveController.script.CameraZoomOut();
                 break;
             case GameDefinition.ButtonEvent.動畫側視圖:
+                RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.動畫側視圖);
                 break;
             case GameDefinition.ButtonEvent.動畫正視圖:
+                RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.動畫正視圖);
                 break;
             case GameDefinition.ButtonEvent.動畫透視圖:
+                RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.動畫透視圖);
                 break;
             case GameDefinition.ButtonEvent.影片側視圖:
+                RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片側視圖);
                 break;
             case GameDefinition.ButtonEvent.影片正視圖:
+                RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片正視圖);
+                break;
+            case GameDefinition.ButtonEvent.上轉:
+                AnimationCameraRotateController.script.CameraRotateUp();
+                break;
+            case GameDefinition.ButtonEvent.下轉:
+                AnimationCameraRotateController.script.CameraRotateDown();
+                break;
+            case GameDefinition.ButtonEvent.左轉:
+                AnimationCameraRotateController.script.CameraRotateLeft();
+                break;
+            case GameDefinition.ButtonEvent.右轉:
+                AnimationCameraRotateController.script.CameraRotateRight();
                 break;
             default:
                 break;

@@ -39,22 +39,22 @@ public class SelectViewController : MonoBehaviour
         }
     }
 
-    void RunMoveTo(Vector3 target)
-    {
-        iTween.MoveTo(this.gameObject, iTween.Hash("position", target, "time", this.MoveTime, "easetype", this.easeType));
-    }
+    //void RunMoveTo(Vector3 target)
+    //{
+    //    iTween.MoveTo(this.gameObject, iTween.Hash("position", target, "time", this.MoveTime, "easetype", this.easeType));
+    //}
 
     void RunMoveTo(MoveState state)
     {
         if (state == MoveState.Run)
         {
-            this.transform.position = this.StartPosition;
-            iTween.MoveTo(this.gameObject, iTween.Hash("position", this.TargetPosition, "time", this.MoveTime, "easetype", this.easeType));
+            this.transform.localPosition = this.StartPosition;
+            iTween.MoveTo(this.gameObject, iTween.Hash("position", this.TargetPosition, "time", this.MoveTime, "islocal", true, "easetype", this.easeType));
         }
         else
         {
-            this.transform.position = this.TargetPosition;
-            iTween.MoveTo(this.gameObject, iTween.Hash("position", this.StartPosition, "time", this.MoveTime, "easetype", this.easeType));
+            this.transform.localPosition = this.TargetPosition;
+            iTween.MoveTo(this.gameObject, iTween.Hash("position", this.StartPosition, "time", this.MoveTime, "islocal", true, "easetype", this.easeType));
         }
     }
 

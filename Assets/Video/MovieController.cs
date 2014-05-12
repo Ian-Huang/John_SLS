@@ -3,6 +3,7 @@ using System.Collections;
 
 public class MovieController : MonoBehaviour
 {
+    private bool isPlaying;
     public MovieTexture movie;
     public static MovieController script;
 
@@ -14,29 +15,55 @@ public class MovieController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //this.movie = this.GetComponent<MovieTexture>();
+        this.isPlaying = false;
         this.movie.loop = true;
-
+        this.renderer.material.mainTexture = this.movie;
     }
 
-    public void PlayMovie()
+    /// <summary>
+    /// 播放or恢復播放
+    /// </summary>
+    /// <param name="isSpeak">是否來自語音指令</param>
+    public void PlayMovie(bool isSpeak)
     {
         this.movie.Play();
+
+        if (!isSpeak)
+        {
+            if (!this.isPlaying)
+            {
+                this.isPlaying = true;
+                this.movie.Play();
+            }
+            else
+            {
+                this.isPlaying = false;
+                this.movie.Pause();
+            }
+        }
+        else
+        {
+            this.movie.Play();
+            this.isPlaying = true;
+        }
+    }
+
+    public void RePlayMovie()
+    {
+        this.movie.Stop();
+        this.movie.Play();
+        this.isPlaying = true;
     }
 
     public void PauseMovie()
     {
         this.movie.Pause();
+        this.isPlaying = false;
     }
 
     public void StopMovie()
     {
         this.movie.Stop();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        this.isPlaying = false;
     }
 }

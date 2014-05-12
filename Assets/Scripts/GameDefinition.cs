@@ -18,7 +18,8 @@ public class GameDefinition
         ShowSelectView = 14, CloseSelectView = 20,
         PlayAnimation = 15, StopAnimation = 16, RePlayAnimation = 17,
         ZoomIn = 18, ZoomOut = 19,
-        動畫側視圖 = 21, 動畫正視圖 = 22, 動畫透視圖 = 23, 影片側視圖 = 24, 影片正視圖 = 25
+        動畫側視圖 = 21, 動畫正視圖 = 22, 動畫透視圖 = 23, 影片側視圖 = 24, 影片正視圖 = 25,
+        上轉 = 26, 下轉 = 27, 左轉 = 28, 右轉 = 29
     }
 
     public enum SpeakInstruction
