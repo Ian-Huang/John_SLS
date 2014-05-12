@@ -50,9 +50,11 @@ public class ButtonController : MonoBehaviour
                 break;
             case GameDefinition.ButtonEvent.PlayAnimation:
                 ModelAnimationController.script.Play(false);
+                MovieController.script.PlayMovie();
                 break;
             case GameDefinition.ButtonEvent.StopAnimation:
                 ModelAnimationController.script.Stop();
+                MovieController.script.StopMovie();
                 break;
             case GameDefinition.ButtonEvent.RePlayAnimation:
                 ModelAnimationController.script.RePlay();
