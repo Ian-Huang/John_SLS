@@ -6,6 +6,7 @@ public class GameDefinition
     public const int Animation_NormalSpeed = 4;
     public const int Animation_HalfSpeed = 2;
     public const int Animation_QuaterSpeed = 1;
+    public static PlayActionType ActionType = PlayActionType.足內側向上踢;
 
     public enum ButtonEvent
     {
@@ -31,5 +32,10 @@ public class GameDefinition
         離開 = 9,
         動畫側視圖 = 10, 動畫正視圖 = 11, 動畫透視圖 = 12, 影片側視圖 = 13, 影片正視圖 = 14,
         上轉 = 15, 下轉 = 16, 左轉 = 17, 右轉 = 18
+    }
+
+    public enum PlayActionType
+    {
+        足內側向上踢 = 2, 足背向上踢 = 3, 足內側發球 = 4, 足背高腳掃踢發球 = 5, 下壓攻踢 = 6, 倒鉤攻踢 = 7
     }
 }

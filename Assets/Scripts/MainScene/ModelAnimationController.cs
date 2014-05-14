@@ -27,12 +27,12 @@ public class ModelAnimationController : MonoBehaviour
     /// <summary>
     /// 回到0，停止
     /// </summary>
-    public void Stop()
+    public void Stop(int speed = GameDefinition.Animation_NormalSpeed)
     {
         this.isPlaying = false;
         this.animator.StartPlayback();
         this.animator.Play("Action", 0, 0);
-        this.SetAnimationSpeed(GameDefinition.Animation_NormalSpeed);
+        this.SetAnimationSpeed(speed);
     }
 
     /// <summary>
@@ -73,12 +73,12 @@ public class ModelAnimationController : MonoBehaviour
     /// <summary>
     /// 回到0，重新播放
     /// </summary>
-    public void RePlay()
+    public void RePlay(int speed = GameDefinition.Animation_NormalSpeed)
     {
         this.isPlaying = true;
         this.animator.StopPlayback();
         this.animator.Play("Action", 0, 0);
-        this.SetAnimationSpeed(GameDefinition.Animation_NormalSpeed);
+        this.SetAnimationSpeed(speed);
     }
 
     //void OnGUI()

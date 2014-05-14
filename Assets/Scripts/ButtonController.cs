@@ -16,12 +16,27 @@ public class ButtonController : MonoBehaviour
                 Application.Quit();
                 break;
             case GameDefinition.ButtonEvent.足內側向上踢:
+                GameDefinition.ActionType = GameDefinition.PlayActionType.足內側向上踢;
+                Application.LoadLevel("MainScene");
+                break;
             case GameDefinition.ButtonEvent.足背向上踢:
+                GameDefinition.ActionType = GameDefinition.PlayActionType.足背向上踢;
+                Application.LoadLevel("MainScene");
+                break;
             case GameDefinition.ButtonEvent.足內側發球:
+                GameDefinition.ActionType = GameDefinition.PlayActionType.足內側發球;
+                Application.LoadLevel("MainScene");
+                break;
             case GameDefinition.ButtonEvent.足背高腳掃踢發球:
+                GameDefinition.ActionType = GameDefinition.PlayActionType.足背高腳掃踢發球;
+                Application.LoadLevel("MainScene");
+                break;
             case GameDefinition.ButtonEvent.下壓攻踢:
+                GameDefinition.ActionType = GameDefinition.PlayActionType.下壓攻踢;
+                Application.LoadLevel("MainScene");
+                break;
             case GameDefinition.ButtonEvent.倒鉤攻踢:
-                print(this.buttonEvent);
+                GameDefinition.ActionType = GameDefinition.PlayActionType.倒鉤攻踢;
                 Application.LoadLevel("MainScene");
                 break;
             case GameDefinition.ButtonEvent.PreviousPage:
@@ -35,12 +50,15 @@ public class ButtonController : MonoBehaviour
                 break;
             case GameDefinition.ButtonEvent.NormalSpeed:
                 ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_NormalSpeed);
+                MovieController.script.ChangeMovieTexture(MovieController.MovieSpeedType.NormalSpeed);
                 break;
             case GameDefinition.ButtonEvent.HalfSpeed:
                 ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_HalfSpeed);
+                MovieController.script.ChangeMovieTexture(MovieController.MovieSpeedType.HalfSpeed);
                 break;
             case GameDefinition.ButtonEvent.QuaterSpeed:
                 ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_QuaterSpeed);
+                MovieController.script.ChangeMovieTexture(MovieController.MovieSpeedType.QuaterSpeed);
                 break;
             case GameDefinition.ButtonEvent.ShowSelectView:
                 SelectViewController.script.ShowSelectView();
@@ -77,9 +95,11 @@ public class ButtonController : MonoBehaviour
                 break;
             case GameDefinition.ButtonEvent.影片側視圖:
                 RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片側視圖);
+                MovieController.script.ChangeMovieTexture(MovieController.MovieDirectionType.Side);
                 break;
             case GameDefinition.ButtonEvent.影片正視圖:
                 RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片正視圖);
+                MovieController.script.ChangeMovieTexture(MovieController.MovieDirectionType.Front);
                 break;
             case GameDefinition.ButtonEvent.上轉:
                 AnimationCameraRotateController.script.CameraRotateUp();

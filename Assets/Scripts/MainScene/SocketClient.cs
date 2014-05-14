@@ -152,9 +152,11 @@ public class SocketClient : MonoBehaviour
                             break;
                         case "二分之一速":
                             ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_HalfSpeed);
+                            MovieController.script.ChangeMovieTexture(MovieController.MovieSpeedType.HalfSpeed);
                             break;
                         case "四分之一速":
                             ModelAnimationController.script.SetAnimationSpeed(GameDefinition.Animation_QuaterSpeed);
+                            MovieController.script.ChangeMovieTexture(MovieController.MovieSpeedType.QuaterSpeed);
                             break;
                         case "切換視角":
                             SelectViewController.script.ShowSelectView();
@@ -176,9 +178,11 @@ public class SocketClient : MonoBehaviour
                             break;
                         case "影片側視圖":
                             RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片側視圖);
+                            MovieController.script.ChangeMovieTexture(MovieController.MovieDirectionType.Side);
                             break;
                         case "影片正視圖":
                             RightCameraController.script.ChangeRightCameraView(RightCameraController.ViewType.影片正視圖);
+                            MovieController.script.ChangeMovieTexture(MovieController.MovieDirectionType.Front);
                             break;
                         case "上轉":
                             AnimationCameraRotateController.script.CameraRotateUp();
