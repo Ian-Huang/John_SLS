@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ModelAnimationController : MonoBehaviour
 {
+    public ModelData CurrentModelData;
+    public List<ModelData> ModelDataList;
+
     private bool isPlaying;
     private Animator animator;
     public static ModelAnimationController script;
@@ -12,10 +16,52 @@ public class ModelAnimationController : MonoBehaviour
         script = this;
     }
 
+    void Update()
+    {
+        if (isPlaying)
+        {
+            if (this.animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+            {
+                print(this.animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
+                switch ((int)this.animator.speed)
+                {
+                    case GameDefinition.Animation_NormalSpeed:
+                        ModelAnimationController.script.RePlay((int)this.animator.speed);
+                        MovieController.script.RePlayMovie(MovieController.MovieSpeedType.NormalSpeed);
+                        break;
+                    case GameDefinition.Animation_HalfSpeed:
+                        ModelAnimationController.script.RePlay((int)this.animator.speed);
+                        MovieController.script.RePlayMovie(MovieController.MovieSpeedType.HalfSpeed);
+                        break;
+                    case GameDefinition.Animation_QuaterSpeed:
+                        ModelAnimationController.script.RePlay((int)this.animator.speed);
+                        MovieController.script.RePlayMovie(MovieController.MovieSpeedType.QuaterSpeed);
+                        break;
+                }
+            }
+        }
+
+    }
+
     // Use this for initialization
     void Start()
     {
-        this.animator = this.GetComponent<Animator>();
+        this.CurrentModelData = this.ModelDataList.Find((ModelData data) =>
+         {
+             if (data.ActionType == GameDefinition.ActionType)
+             {
+                 data.ModelObject.SetActive(true);
+                 return true;
+             }
+             else
+             {
+                 data.ModelObject.SetActive(false);
+                 return false;
+             }
+         });
+
+        this.animator = this.CurrentModelData.ModelObject.GetComponent<Animator>();
+
         this.Stop();
     }
 
@@ -81,34 +127,10 @@ public class ModelAnimationController : MonoBehaviour
         this.SetAnimationSpeed(speed);
     }
 
-    //void OnGUI()
-    //{
-    //    if (GUI.Button(new Rect(100, 100, 100, 100), "+"))
-    //    {
-    //        this.speed++;
-    //        this.animator.speed = this.speed;
-    //    }
-    //    if (GUI.Button(new Rect(300, 100, 100, 100), "-"))
-    //    {
-    //        this.speed--;
-    //        this.animator.speed = this.speed;
-
-    //    }
-
-    //    if (GUI.Button(new Rect(100, 300, 100, 100), "Play"))
-    //    {
-
-    //        this.animator.StopPlayback();
-
-    //    }
-    //    if (GUI.Button(new Rect(300, 300, 100, 100), "Stop"))
-    //    {
-    //        ////回到0 (重播)
-    //        //this.animator.StartPlayback();
-    //        this.animator.Play("Action",0,0);
-    //        //不回到0 (停播)
-    //        //this.animator.StartPlayback();
-    //    }
-    //}
-
+    [System.Serializable]
+    public class ModelData
+    {
+        public GameDefinition.PlayActionType ActionType;
+        public GameObject ModelObject;
+    }
 }

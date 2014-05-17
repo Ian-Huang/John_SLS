@@ -132,6 +132,11 @@ namespace SocketServer
             catch (Exception)
             {
                 this.SendMessageToClient("語音辨識引擎設定錯誤");
+                
+                string sendStr; 
+                sendStr = "Error:";    //功能設定字(使Client知道目前系統辨識到的單字)
+                sendStr += "語音引擎未安裝";
+                this.SendMessageToClient(sendStr);
             }
 
             if (recognizerInfo != null)
@@ -161,6 +166,11 @@ namespace SocketServer
                 catch (Exception)
                 {
                     this.SendMessageToClient("麥克風裝置設定錯誤");
+
+                    string sendStr;
+                    sendStr = "Error:";    //功能設定字(使Client知道目前系統辨識到的單字)
+                    sendStr += "麥克風未安裝";
+                    this.SendMessageToClient(sendStr);
                 }
             }
             Console.WriteLine("語音相關物件初始化完成");
@@ -194,6 +204,11 @@ namespace SocketServer
                 this.speechEngine.LoadGrammarAsync(grammar);
             }
             Console.WriteLine("語音辨識單字設定完成");
+
+            string sendStr;
+            sendStr = "Success:";    //功能設定字(使Client知道目前系統辨識到的單字)
+            sendStr += "開始辨識";
+            this.SendMessageToClient(sendStr);
         }
 
         /// <summary>

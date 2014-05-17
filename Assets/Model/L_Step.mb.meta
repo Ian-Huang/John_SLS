@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: f3af72e206aaf1f40a21c296efb3861e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: CourtOK:bench1
+    100002: CourtOK:bench2
+    100004: CourtOK:bench3
+    100006: CourtOK:bench5
+    100008: CourtOK:BenchGroup
+    100010: CourtOK:courtGround
+    100012: CourtOK:FlagGroup
+    100014: CourtOK:group1
+    100016: CourtOK:group2
+    100018: CourtOK:lamp1
+    100020: CourtOK:LampGroup
+    100022: CourtOK:net
+    100024: CourtOK:NetGroup
+    100026: CourtOK:netPoleLeft
+    100028: CourtOK:netStandLeft
+    100030: CourtOK:netStandRight
+    100032: CourtOK:ntePoleRight
+    100034: CourtOK:pCylinder10
+    100036: CourtOK:pCylinder11
+    100038: CourtOK:pCylinder12
+    100040: CourtOK:pCylinder13
+    100042: CourtOK:pCylinder14
+    100044: CourtOK:pCylinder15
+    100046: CourtOK:pCylinder16
+    100048: CourtOK:pCylinder17
+    100050: CourtOK:pCylinder18
+    100052: CourtOK:pCylinder19
+    100054: CourtOK:pCylinder20
+    100056: CourtOK:pCylinder21
+    100058: CourtOK:pCylinder22
+    100060: CourtOK:pCylinder23
+    100062: CourtOK:pCylinder24
+    100064: CourtOK:pCylinder25
+    100066: CourtOK:pCylinder26
+    100068: CourtOK:pCylinder27
+    100070: CourtOK:pCylinder28
+    100072: CourtOK:pCylinder29
+    100074: CourtOK:pCylinder30
+    100076: CourtOK:pCylinder31
+    100078: CourtOK:pCylinder32
+    100080: CourtOK:pCylinder33
+    100082: CourtOK:pCylinder34
+    100084: CourtOK:pCylinder35
+    100086: CourtOK:pCylinder36
+    100088: CourtOK:pCylinder37
+    100090: CourtOK:pCylinder38
+    100092: CourtOK:pCylinder39
+    100094: CourtOK:pCylinder40
+    100096: CourtOK:pCylinder41
+    100098: CourtOK:pCylinder42
+    100100: CourtOK:pCylinder43
+    100102: CourtOK:pCylinder44
+    100104: CourtOK:Walls
+    100106: group1
+    100108: //RootNode
+    100110: PlayerOK1:GROUP
+    100112: PlayerOK1:MalePrototype2:back1
+    100114: PlayerOK1:MalePrototype2:back2
+    100116: PlayerOK1:MalePrototype2:back3
+    100118: PlayerOK1:MalePrototype2:back4
+    100120: PlayerOK1:MalePrototype2:baseHead
+    100122: PlayerOK1:MalePrototype2:cluster1Handle
+    100124: PlayerOK1:MalePrototype2:cluster2Handle
+    100126: PlayerOK1:MalePrototype2:cluster4Handle
+    100128: PlayerOK1:MalePrototype2:cluster5Handle
+    100130: PlayerOK1:MalePrototype2:cluster6Handle
+    100132: PlayerOK1:MalePrototype2:cluster7Handle
+    100134: PlayerOK1:MalePrototype2:cluster8Handle
+    100136: PlayerOK1:MalePrototype2:cluster9Handle
+    100138: PlayerOK1:MalePrototype2:CONTROLS
+    100140: PlayerOK1:MalePrototype2:curve3
+    100142: PlayerOK1:MalePrototype2:curve4
+    100144: PlayerOK1:MalePrototype2:curve5
+    100146: PlayerOK1:MalePrototype2:curve6
+    100148: PlayerOK1:MalePrototype2:curve7
+    100150: PlayerOK1:MalePrototype2:GlobalControl
+    100152: PlayerOK1:MalePrototype2:hip
+    100154: PlayerOK1:MalePrototype2:hipControl
+    100156: PlayerOK1:MalePrototype2:IK
+    100158: PlayerOK1:MalePrototype2:ikHandle10
+    100160: PlayerOK1:MalePrototype2:ikHandle13
+    100162: PlayerOK1:MalePrototype2:ikHandle14
+    100164: PlayerOK1:MalePrototype2:ikHandle15
+    100166: PlayerOK1:MalePrototype2:ikHandle16
+    100168: PlayerOK1:MalePrototype2:ikHandle17
+    100170: PlayerOK1:MalePrototype2:ikHandle23
+    100172: PlayerOK1:MalePrototype2:ikHandle24
+    100174: PlayerOK1:MalePrototype2:ikHandle25
+    100176: PlayerOK1:MalePrototype2:ikHandle5
+    100178: PlayerOK1:MalePrototype2:ikHandle6
+    100180: PlayerOK1:MalePrototype2:ikHandle9
+    100182: PlayerOK1:MalePrototype2:joint9
+    100184: PlayerOK1:MalePrototype2:JOINTS
+    100186: PlayerOK1:MalePrototype2:leftAnkle
+    100188: PlayerOK1:MalePrototype2:leftClavicle
+    100190: PlayerOK1:MalePrototype2:leftElbow
+    100192: PlayerOK1:MalePrototype2:leftFoot
+    100194: PlayerOK1:MalePrototype2:leftFootControl
+    100196: PlayerOK1:MalePrototype2:leftHip
+    100198: PlayerOK1:MalePrototype2:leftIndex1
+    100200: PlayerOK1:MalePrototype2:leftIndex2
+    100202: PlayerOK1:MalePrototype2:leftIndex3
+    100204: PlayerOK1:MalePrototype2:leftIndex4
+    100206: PlayerOK1:MalePrototype2:leftKnee
+    100208: PlayerOK1:MalePrototype2:leftMiddle1
+    100210: PlayerOK1:MalePrototype2:leftMiddle2
+    100212: PlayerOK1:MalePrototype2:leftMiddle3
+    100214: PlayerOK1:MalePrototype2:leftMiddle4
+    100216: PlayerOK1:MalePrototype2:leftPinky1
+    100218: PlayerOK1:MalePrototype2:leftPinky2
+    100220: PlayerOK1:MalePrototype2:leftPinky3
+    100222: PlayerOK1:MalePrototype2:leftPinky4
+    100224: PlayerOK1:MalePrototype2:leftRing1
+    100226: PlayerOK1:MalePrototype2:leftRing2
+    100228: PlayerOK1:MalePrototype2:leftRing3
+    100230: PlayerOK1:MalePrototype2:leftRing4
+    100232: PlayerOK1:MalePrototype2:leftShoulder
+    100234: PlayerOK1:MalePrototype2:leftThumb1
+    100236: PlayerOK1:MalePrototype2:leftThumb2
+    100238: PlayerOK1:MalePrototype2:leftThumb3
+    100240: PlayerOK1:MalePrototype2:leftThumb4
+    100242: PlayerOK1:MalePrototype2:leftToe
+    100244: PlayerOK1:MalePrototype2:leftWrist
+    100246: PlayerOK1:MalePrototype2:meterBar
+    100248: PlayerOK1:MalePrototype2:nurbsCircle10
+    100250: PlayerOK1:MalePrototype2:nurbsCircle11
+    100252: PlayerOK1:MalePrototype2:nurbsCircle12
+    100254: PlayerOK1:MalePrototype2:nurbsCircle13
+    100256: PlayerOK1:MalePrototype2:nurbsCircle14
+    100258: PlayerOK1:MalePrototype2:nurbsCircle15
+    100260: PlayerOK1:MalePrototype2:nurbsCircle3
+    100262: PlayerOK1:MalePrototype2:nurbsCircle4
+    100264: PlayerOK1:MalePrototype2:nurbsCircle5
+    100266: PlayerOK1:MalePrototype2:nurbsCircle6
+    100268: PlayerOK1:MalePrototype2:nurbsCircle9
+    100270: PlayerOK1:MalePrototype2:rightAnkle
+    100272: PlayerOK1:MalePrototype2:rightClavicle
+    100274: PlayerOK1:MalePrototype2:rightElbow
+    100276: PlayerOK1:MalePrototype2:rightFoot
+    100278: PlayerOK1:MalePrototype2:rightFootControl
+    100280: PlayerOK1:MalePrototype2:rightHip
+    100282: PlayerOK1:MalePrototype2:rightIndex1
+    100284: PlayerOK1:MalePrototype2:rightIndex2
+    100286: PlayerOK1:MalePrototype2:rightIndex3
+    100288: PlayerOK1:MalePrototype2:rightIndex4
+    100290: PlayerOK1:MalePrototype2:rightKnee
+    100292: PlayerOK1:MalePrototype2:rightMiddle1
+    100294: PlayerOK1:MalePrototype2:rightMiddle2
+    100296: PlayerOK1:MalePrototype2:rightMiddle3
+    100298: PlayerOK1:MalePrototype2:rightMiddle4
+    100300: PlayerOK1:MalePrototype2:rightPinky1
+    100302: PlayerOK1:MalePrototype2:rightPinky2
+    100304: PlayerOK1:MalePrototype2:rightPinky3
+    100306: PlayerOK1:MalePrototype2:rightPinky4
+    100308: PlayerOK1:MalePrototype2:rightRing1
+    100310: PlayerOK1:MalePrototype2:rightRing2
+    100312: PlayerOK1:MalePrototype2:rightRing3
+    100314: PlayerOK1:MalePrototype2:rightRing4
+    100316: PlayerOK1:MalePrototype2:rightShoulder
+    100318: PlayerOK1:MalePrototype2:rightThumb1
+    100320: PlayerOK1:MalePrototype2:rightThumb2
+    100322: PlayerOK1:MalePrototype2:rightThumb3
+    100324: PlayerOK1:MalePrototype2:rightThumb4
+    100326: PlayerOK1:MalePrototype2:rightToe
+    100328: PlayerOK1:MalePrototype2:rightWrist
+    100330: PlayerOK1:MalePrototype2:root
+    100332: PlayerOK1:MalePrototype2:skull
+    100334: PlayerOK1:MalePrototype2:spineCurve
+    100336: PlayerOK1:Poly
+    100338: pSphere4
+    100340: Shuttleball
+    400000: CourtOK:bench1
+    400002: CourtOK:bench2
+    400004: CourtOK:bench3
+    400006: CourtOK:bench5
+    400008: CourtOK:BenchGroup
+    400010: CourtOK:courtGround
+    400012: CourtOK:FlagGroup
+    400014: CourtOK:group1
+    400016: CourtOK:group2
+    400018: CourtOK:lamp1
+    400020: CourtOK:LampGroup
+    400022: CourtOK:net
+    400024: CourtOK:NetGroup
+    400026: CourtOK:netPoleLeft
+    400028: CourtOK:netStandLeft
+    400030: CourtOK:netStandRight
+    400032: CourtOK:ntePoleRight
+    400034: CourtOK:pCylinder10
+    400036: CourtOK:pCylinder11
+    400038: CourtOK:pCylinder12
+    400040: CourtOK:pCylinder13
+    400042: CourtOK:pCylinder14
+    400044: CourtOK:pCylinder15
+    400046: CourtOK:pCylinder16
+    400048: CourtOK:pCylinder17
+    400050: CourtOK:pCylinder18
+    400052: CourtOK:pCylinder19
+    400054: CourtOK:pCylinder20
+    400056: CourtOK:pCylinder21
+    400058: CourtOK:pCylinder22
+    400060: CourtOK:pCylinder23
+    400062: CourtOK:pCylinder24
+    400064: CourtOK:pCylinder25
+    400066: CourtOK:pCylinder26
+    400068: CourtOK:pCylinder27
+    400070: CourtOK:pCylinder28
+    400072: CourtOK:pCylinder29
+    400074: CourtOK:pCylinder30
+    400076: CourtOK:pCylinder31
+    400078: CourtOK:pCylinder32
+    400080: CourtOK:pCylinder33
+    400082: CourtOK:pCylinder34
+    400084: CourtOK:pCylinder35
+    400086: CourtOK:pCylinder36
+    400088: CourtOK:pCylinder37
+    400090: CourtOK:pCylinder38
+    400092: CourtOK:pCylinder39
+    400094: CourtOK:pCylinder40
+    400096: CourtOK:pCylinder41
+    400098: CourtOK:pCylinder42
+    400100: CourtOK:pCylinder43
+    400102: CourtOK:pCylinder44
+    400104: CourtOK:Walls
+    400106: group1
+    400108: //RootNode
+    400110: PlayerOK1:GROUP
+    400112: PlayerOK1:MalePrototype2:back1
+    400114: PlayerOK1:MalePrototype2:back2
+    400116: PlayerOK1:MalePrototype2:back3
+    400118: PlayerOK1:MalePrototype2:back4
+    400120: PlayerOK1:MalePrototype2:baseHead
+    400122: PlayerOK1:MalePrototype2:cluster1Handle
+    400124: PlayerOK1:MalePrototype2:cluster2Handle
+    400126: PlayerOK1:MalePrototype2:cluster4Handle
+    400128: PlayerOK1:MalePrototype2:cluster5Handle
+    400130: PlayerOK1:MalePrototype2:cluster6Handle
+    400132: PlayerOK1:MalePrototype2:cluster7Handle
+    400134: PlayerOK1:MalePrototype2:cluster8Handle
+    400136: PlayerOK1:MalePrototype2:cluster9Handle
+    400138: PlayerOK1:MalePrototype2:CONTROLS
+    400140: PlayerOK1:MalePrototype2:curve3
+    400142: PlayerOK1:MalePrototype2:curve4
+    400144: PlayerOK1:MalePrototype2:curve5
+    400146: PlayerOK1:MalePrototype2:curve6
+    400148: PlayerOK1:MalePrototype2:curve7
+    400150: PlayerOK1:MalePrototype2:GlobalControl
+    400152: PlayerOK1:MalePrototype2:hip
+    400154: PlayerOK1:MalePrototype2:hipControl
+    400156: PlayerOK1:MalePrototype2:IK
+    400158: PlayerOK1:MalePrototype2:ikHandle10
+    400160: PlayerOK1:MalePrototype2:ikHandle13
+    400162: PlayerOK1:MalePrototype2:ikHandle14
+    400164: PlayerOK1:MalePrototype2:ikHandle15
+    400166: PlayerOK1:MalePrototype2:ikHandle16
+    400168: PlayerOK1:MalePrototype2:ikHandle17
+    400170: PlayerOK1:MalePrototype2:ikHandle23
+    400172: PlayerOK1:MalePrototype2:ikHandle24
+    400174: PlayerOK1:MalePrototype2:ikHandle25
+    400176: PlayerOK1:MalePrototype2:ikHandle5
+    400178: PlayerOK1:MalePrototype2:ikHandle6
+    400180: PlayerOK1:MalePrototype2:ikHandle9
+    400182: PlayerOK1:MalePrototype2:joint9
+    400184: PlayerOK1:MalePrototype2:JOINTS
+    400186: PlayerOK1:MalePrototype2:leftAnkle
+    400188: PlayerOK1:MalePrototype2:leftClavicle
+    400190: PlayerOK1:MalePrototype2:leftElbow
+    400192: PlayerOK1:MalePrototype2:leftFoot
+    400194: PlayerOK1:MalePrototype2:leftFootControl
+    400196: PlayerOK1:MalePrototype2:leftHip
+    400198: PlayerOK1:MalePrototype2:leftIndex1
+    400200: PlayerOK1:MalePrototype2:leftIndex2
+    400202: PlayerOK1:MalePrototype2:leftIndex3
+    400204: PlayerOK1:MalePrototype2:leftIndex4
+    400206: PlayerOK1:MalePrototype2:leftKnee
+    400208: PlayerOK1:MalePrototype2:leftMiddle1
+    400210: PlayerOK1:MalePrototype2:leftMiddle2
+    400212: PlayerOK1:MalePrototype2:leftMiddle3
+    400214: PlayerOK1:MalePrototype2:leftMiddle4
+    400216: PlayerOK1:MalePrototype2:leftPinky1
+    400218: PlayerOK1:MalePrototype2:leftPinky2
+    400220: PlayerOK1:MalePrototype2:leftPinky3
+    400222: PlayerOK1:MalePrototype2:leftPinky4
+    400224: PlayerOK1:MalePrototype2:leftRing1
+    400226: PlayerOK1:MalePrototype2:leftRing2
+    400228: PlayerOK1:MalePrototype2:leftRing3
+    400230: PlayerOK1:MalePrototype2:leftRing4
+    400232: PlayerOK1:MalePrototype2:leftShoulder
+    400234: PlayerOK1:MalePrototype2:leftThumb1
+    400236: PlayerOK1:MalePrototype2:leftThumb2
+    400238: PlayerOK1:MalePrototype2:leftThumb3
+    400240: PlayerOK1:MalePrototype2:leftThumb4
+    400242: PlayerOK1:MalePrototype2:leftToe
+    400244: PlayerOK1:MalePrototype2:leftWrist
+    400246: PlayerOK1:MalePrototype2:meterBar
+    400248: PlayerOK1:MalePrototype2:nurbsCircle10
+    400250: PlayerOK1:MalePrototype2:nurbsCircle11
+    400252: PlayerOK1:MalePrototype2:nurbsCircle12
+    400254: PlayerOK1:MalePrototype2:nurbsCircle13
+    400256: PlayerOK1:MalePrototype2:nurbsCircle14
+    400258: PlayerOK1:MalePrototype2:nurbsCircle15
+    400260: PlayerOK1:MalePrototype2:nurbsCircle3
+    400262: PlayerOK1:MalePrototype2:nurbsCircle4
+    400264: PlayerOK1:MalePrototype2:nurbsCircle5
+    400266: PlayerOK1:MalePrototype2:nurbsCircle6
+    400268: PlayerOK1:MalePrototype2:nurbsCircle9
+    400270: PlayerOK1:MalePrototype2:rightAnkle
+    400272: PlayerOK1:MalePrototype2:rightClavicle
+    400274: PlayerOK1:MalePrototype2:rightElbow
+    400276: PlayerOK1:MalePrototype2:rightFoot
+    400278: PlayerOK1:MalePrototype2:rightFootControl
+    400280: PlayerOK1:MalePrototype2:rightHip
+    400282: PlayerOK1:MalePrototype2:rightIndex1
+    400284: PlayerOK1:MalePrototype2:rightIndex2
+    400286: PlayerOK1:MalePrototype2:rightIndex3
+    400288: PlayerOK1:MalePrototype2:rightIndex4
+    400290: PlayerOK1:MalePrototype2:rightKnee
+    400292: PlayerOK1:MalePrototype2:rightMiddle1
+    400294: PlayerOK1:MalePrototype2:rightMiddle2
+    400296: PlayerOK1:MalePrototype2:rightMiddle3
+    400298: PlayerOK1:MalePrototype2:rightMiddle4
+    400300: PlayerOK1:MalePrototype2:rightPinky1
+    400302: PlayerOK1:MalePrototype2:rightPinky2
+    400304: PlayerOK1:MalePrototype2:rightPinky3
+    400306: PlayerOK1:MalePrototype2:rightPinky4
+    400308: PlayerOK1:MalePrototype2:rightRing1
+    400310: PlayerOK1:MalePrototype2:rightRing2
+    400312: PlayerOK1:MalePrototype2:rightRing3
+    400314: PlayerOK1:MalePrototype2:rightRing4
+    400316: PlayerOK1:MalePrototype2:rightShoulder
+    400318: PlayerOK1:MalePrototype2:rightThumb1
+    400320: PlayerOK1:MalePrototype2:rightThumb2
+    400322: PlayerOK1:MalePrototype2:rightThumb3
+    400324: PlayerOK1:MalePrototype2:rightThumb4
+    400326: PlayerOK1:MalePrototype2:rightToe
+    400328: PlayerOK1:MalePrototype2:rightWrist
+    400330: PlayerOK1:MalePrototype2:root
+    400332: PlayerOK1:MalePrototype2:skull
+    400334: PlayerOK1:MalePrototype2:spineCurve
+    400336: PlayerOK1:Poly
+    400338: pSphere4
+    400340: Shuttleball
+    2300000: CourtOK:bench1
+    2300002: CourtOK:bench2
+    2300004: CourtOK:bench3
+    2300006: CourtOK:bench5
+    2300008: CourtOK:courtGround
+    2300010: CourtOK:lamp1
+    2300012: CourtOK:net
+    2300014: CourtOK:netPoleLeft
+    2300016: CourtOK:netStandLeft
+    2300018: CourtOK:netStandRight
+    2300020: CourtOK:ntePoleRight
+    2300022: CourtOK:pCylinder10
+    2300024: CourtOK:pCylinder11
+    2300026: CourtOK:pCylinder12
+    2300028: CourtOK:pCylinder13
+    2300030: CourtOK:pCylinder14
+    2300032: CourtOK:pCylinder15
+    2300034: CourtOK:pCylinder16
+    2300036: CourtOK:pCylinder17
+    2300038: CourtOK:pCylinder18
+    2300040: CourtOK:pCylinder19
+    2300042: CourtOK:pCylinder20
+    2300044: CourtOK:pCylinder21
+    2300046: CourtOK:pCylinder22
+    2300048: CourtOK:pCylinder23
+    2300050: CourtOK:pCylinder24
+    2300052: CourtOK:pCylinder25
+    2300054: CourtOK:pCylinder26
+    2300056: CourtOK:pCylinder27
+    2300058: CourtOK:pCylinder28
+    2300060: CourtOK:pCylinder29
+    2300062: CourtOK:pCylinder30
+    2300064: CourtOK:pCylinder31
+    2300066: CourtOK:pCylinder32
+    2300068: CourtOK:pCylinder33
+    2300070: CourtOK:pCylinder34
+    2300072: CourtOK:pCylinder35
+    2300074: CourtOK:pCylinder36
+    2300076: CourtOK:pCylinder37
+    2300078: CourtOK:pCylinder38
+    2300080: CourtOK:pCylinder39
+    2300082: CourtOK:pCylinder40
+    2300084: CourtOK:pCylinder41
+    2300086: CourtOK:pCylinder42
+    2300088: CourtOK:pCylinder43
+    2300090: CourtOK:pCylinder44
+    2300092: CourtOK:Walls
+    2300094: pSphere4
+    3300000: CourtOK:bench1
+    3300002: CourtOK:bench2
+    3300004: CourtOK:bench3
+    3300006: CourtOK:bench5
+    3300008: CourtOK:courtGround
+    3300010: CourtOK:lamp1
+    3300012: CourtOK:net
+    3300014: CourtOK:netPoleLeft
+    3300016: CourtOK:netStandLeft
+    3300018: CourtOK:netStandRight
+    3300020: CourtOK:ntePoleRight
+    3300022: CourtOK:pCylinder10
+    3300024: CourtOK:pCylinder11
+    3300026: CourtOK:pCylinder12
+    3300028: CourtOK:pCylinder13
+    3300030: CourtOK:pCylinder14
+    3300032: CourtOK:pCylinder15
+    3300034: CourtOK:pCylinder16
+    3300036: CourtOK:pCylinder17
+    3300038: CourtOK:pCylinder18
+    3300040: CourtOK:pCylinder19
+    3300042: CourtOK:pCylinder20
+    3300044: CourtOK:pCylinder21
+    3300046: CourtOK:pCylinder22
+    3300048: CourtOK:pCylinder23
+    3300050: CourtOK:pCylinder24
+    3300052: CourtOK:pCylinder25
+    3300054: CourtOK:pCylinder26
+    3300056: CourtOK:pCylinder27
+    3300058: CourtOK:pCylinder28
+    3300060: CourtOK:pCylinder29
+    3300062: CourtOK:pCylinder30
+    3300064: CourtOK:pCylinder31
+    3300066: CourtOK:pCylinder32
+    3300068: CourtOK:pCylinder33
+    3300070: CourtOK:pCylinder34
+    3300072: CourtOK:pCylinder35
+    3300074: CourtOK:pCylinder36
+    3300076: CourtOK:pCylinder37
+    3300078: CourtOK:pCylinder38
+    3300080: CourtOK:pCylinder39
+    3300082: CourtOK:pCylinder40
+    3300084: CourtOK:pCylinder41
+    3300086: CourtOK:pCylinder42
+    3300088: CourtOK:pCylinder43
+    3300090: CourtOK:pCylinder44
+    3300092: CourtOK:Walls
+    3300094: pSphere4
+    4300000: PlayerOK1:Poly
+    4300002: CourtOK:courtGround
+    4300004: CourtOK:netPoleLeft
+    4300006: CourtOK:net
+    4300008: CourtOK:netStandLeft
+    4300010: CourtOK:netStandRight
+    4300012: CourtOK:ntePoleRight
+    4300014: CourtOK:bench5
+    4300016: CourtOK:bench3
+    4300018: CourtOK:bench2
+    4300020: CourtOK:bench1
+    4300022: CourtOK:Walls
+    4300024: CourtOK:pCylinder10
+    4300026: CourtOK:pCylinder11
+    4300028: CourtOK:pCylinder12
+    4300030: CourtOK:pCylinder13
+    4300032: CourtOK:pCylinder14
+    4300034: CourtOK:pCylinder15
+    4300036: CourtOK:pCylinder16
+    4300038: CourtOK:pCylinder17
+    4300040: CourtOK:pCylinder18
+    4300042: CourtOK:pCylinder19
+    4300044: CourtOK:pCylinder20
+    4300046: CourtOK:pCylinder21
+    4300048: CourtOK:pCylinder22
+    4300050: CourtOK:pCylinder23
+    4300052: CourtOK:pCylinder24
+    4300054: CourtOK:pCylinder25
+    4300056: CourtOK:pCylinder26
+    4300058: CourtOK:pCylinder27
+    4300060: CourtOK:pCylinder28
+    4300062: CourtOK:pCylinder29
+    4300064: CourtOK:pCylinder30
+    4300066: CourtOK:pCylinder31
+    4300068: CourtOK:pCylinder32
+    4300070: CourtOK:pCylinder33
+    4300072: CourtOK:pCylinder34
+    4300074: CourtOK:pCylinder35
+    4300076: CourtOK:pCylinder36
+    4300078: CourtOK:pCylinder37
+    4300080: CourtOK:pCylinder38
+    4300082: CourtOK:pCylinder39
+    4300084: CourtOK:pCylinder40
+    4300086: CourtOK:pCylinder41
+    4300088: CourtOK:pCylinder42
+    4300090: CourtOK:pCylinder43
+    4300092: CourtOK:pCylinder44
+    4300094: CourtOK:lamp1
+    4300096: pSphere4
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: PlayerOK1:Poly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 57
+      lastFrame: 461
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CourtOK:BenchGroup
+        weight: 1
+      - path: CourtOK:FlagGroup
+        weight: 1
+      - path: CourtOK:group1
+        weight: 1
+      - path: CourtOK:group2
+        weight: 1
+      - path: CourtOK:group2/CourtOK:bench1
+        weight: 1
+      - path: CourtOK:group2/CourtOK:bench2
+        weight: 1
+      - path: CourtOK:group2/CourtOK:bench3
+        weight: 1
+      - path: CourtOK:group2/CourtOK:bench5
+        weight: 1
+      - path: CourtOK:group2/CourtOK:courtGround
+        weight: 1
+      - path: CourtOK:group2/CourtOK:lamp1
+        weight: 1
+      - path: CourtOK:group2/CourtOK:net
+        weight: 1
+      - path: CourtOK:group2/CourtOK:netPoleLeft
+        weight: 1
+      - path: CourtOK:group2/CourtOK:netStandLeft
+        weight: 1
+      - path: CourtOK:group2/CourtOK:netStandRight
+        weight: 1
+      - path: CourtOK:group2/CourtOK:ntePoleRight
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder10
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder11
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder12
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder13
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder14
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder15
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder16
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder17
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder18
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder19
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder20
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder21
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder22
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder23
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder24
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder25
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder26
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder27
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder28
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder29
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder30
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder31
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder32
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder33
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder34
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder35
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder36
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder37
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder38
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder39
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder40
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder41
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder42
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder43
+        weight: 1
+      - path: CourtOK:group2/CourtOK:pCylinder44
+        weight: 1
+      - path: CourtOK:group2/CourtOK:Walls
+        weight: 1
+      - path: CourtOK:LampGroup
+        weight: 1
+      - path: CourtOK:NetGroup
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/PlayerOK1:MalePrototype2:GlobalControl
+        weight: 1
+      - path: group1/Shuttleball
+        weight: 1
+      - path: group1/Shuttleball/pSphere4
+        weight: 1
+      - path: PlayerOK1:GROUP
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:curve3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:curve4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:curve5
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:curve6
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:curve7
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:curve7/PlayerOK1:MalePrototype2:nurbsCircle11
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:curve7/PlayerOK1:MalePrototype2:nurbsCircle14
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:curve7/PlayerOK1:MalePrototype2:nurbsCircle15
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:nurbsCircle9
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:nurbsCircle10
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:nurbsCircle12
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:hipControl/PlayerOK1:MalePrototype2:nurbsCircle13
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:leftFootControl
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:leftFootControl/PlayerOK1:MalePrototype2:ikHandle5
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:leftFootControl/PlayerOK1:MalePrototype2:nurbsCircle3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:leftFootControl/PlayerOK1:MalePrototype2:nurbsCircle3/PlayerOK1:MalePrototype2:ikHandle6
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:leftFootControl/PlayerOK1:MalePrototype2:nurbsCircle6
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:leftFootControl/PlayerOK1:MalePrototype2:nurbsCircle6/PlayerOK1:MalePrototype2:ikHandle16
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:meterBar
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:rightFootControl
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:rightFootControl/PlayerOK1:MalePrototype2:ikHandle9
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:rightFootControl/PlayerOK1:MalePrototype2:nurbsCircle4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:rightFootControl/PlayerOK1:MalePrototype2:nurbsCircle4/PlayerOK1:MalePrototype2:ikHandle10
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:rightFootControl/PlayerOK1:MalePrototype2:nurbsCircle5
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:CONTROLS/PlayerOK1:MalePrototype2:rightFootControl/PlayerOK1:MalePrototype2:nurbsCircle5/PlayerOK1:MalePrototype2:ikHandle15
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK/PlayerOK1:MalePrototype2:ikHandle13
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK/PlayerOK1:MalePrototype2:ikHandle14
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK/PlayerOK1:MalePrototype2:ikHandle17
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK/PlayerOK1:MalePrototype2:ikHandle23
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK/PlayerOK1:MalePrototype2:ikHandle24
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:IK/PlayerOK1:MalePrototype2:ikHandle25
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster1Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster2Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster4Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster5Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster6Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster7Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster8Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:cluster9Handle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:joint9
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:joint9/PlayerOK1:MalePrototype2:baseHead
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:joint9/PlayerOK1:MalePrototype2:baseHead/PlayerOK1:MalePrototype2:skull
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftIndex1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftIndex1/PlayerOK1:MalePrototype2:leftIndex2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftIndex1/PlayerOK1:MalePrototype2:leftIndex2/PlayerOK1:MalePrototype2:leftIndex3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftIndex1/PlayerOK1:MalePrototype2:leftIndex2/PlayerOK1:MalePrototype2:leftIndex3/PlayerOK1:MalePrototype2:leftIndex4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftMiddle1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftMiddle1/PlayerOK1:MalePrototype2:leftMiddle2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftMiddle1/PlayerOK1:MalePrototype2:leftMiddle2/PlayerOK1:MalePrototype2:leftMiddle3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftMiddle1/PlayerOK1:MalePrototype2:leftMiddle2/PlayerOK1:MalePrototype2:leftMiddle3/PlayerOK1:MalePrototype2:leftMiddle4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftPinky1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftPinky1/PlayerOK1:MalePrototype2:leftPinky2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftPinky1/PlayerOK1:MalePrototype2:leftPinky2/PlayerOK1:MalePrototype2:leftPinky3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftPinky1/PlayerOK1:MalePrototype2:leftPinky2/PlayerOK1:MalePrototype2:leftPinky3/PlayerOK1:MalePrototype2:leftPinky4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftRing1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftRing1/PlayerOK1:MalePrototype2:leftRing2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftRing1/PlayerOK1:MalePrototype2:leftRing2/PlayerOK1:MalePrototype2:leftRing3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftRing1/PlayerOK1:MalePrototype2:leftRing2/PlayerOK1:MalePrototype2:leftRing3/PlayerOK1:MalePrototype2:leftRing4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftThumb1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftThumb1/PlayerOK1:MalePrototype2:leftThumb2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftThumb1/PlayerOK1:MalePrototype2:leftThumb2/PlayerOK1:MalePrototype2:leftThumb3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:leftClavicle/PlayerOK1:MalePrototype2:leftShoulder/PlayerOK1:MalePrototype2:leftElbow/PlayerOK1:MalePrototype2:leftWrist/PlayerOK1:MalePrototype2:leftThumb1/PlayerOK1:MalePrototype2:leftThumb2/PlayerOK1:MalePrototype2:leftThumb3/PlayerOK1:MalePrototype2:leftThumb4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightIndex1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightIndex1/PlayerOK1:MalePrototype2:rightIndex2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightIndex1/PlayerOK1:MalePrototype2:rightIndex2/PlayerOK1:MalePrototype2:rightIndex3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightIndex1/PlayerOK1:MalePrototype2:rightIndex2/PlayerOK1:MalePrototype2:rightIndex3/PlayerOK1:MalePrototype2:rightIndex4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightMiddle1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightMiddle1/PlayerOK1:MalePrototype2:rightMiddle2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightMiddle1/PlayerOK1:MalePrototype2:rightMiddle2/PlayerOK1:MalePrototype2:rightMiddle3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightMiddle1/PlayerOK1:MalePrototype2:rightMiddle2/PlayerOK1:MalePrototype2:rightMiddle3/PlayerOK1:MalePrototype2:rightMiddle4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightPinky1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightPinky1/PlayerOK1:MalePrototype2:rightPinky2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightPinky1/PlayerOK1:MalePrototype2:rightPinky2/PlayerOK1:MalePrototype2:rightPinky3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightPinky1/PlayerOK1:MalePrototype2:rightPinky2/PlayerOK1:MalePrototype2:rightPinky3/PlayerOK1:MalePrototype2:rightPinky4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightRing1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightRing1/PlayerOK1:MalePrototype2:rightRing2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightRing1/PlayerOK1:MalePrototype2:rightRing2/PlayerOK1:MalePrototype2:rightRing3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightRing1/PlayerOK1:MalePrototype2:rightRing2/PlayerOK1:MalePrototype2:rightRing3/PlayerOK1:MalePrototype2:rightRing4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightThumb1
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightThumb1/PlayerOK1:MalePrototype2:rightThumb2
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightThumb1/PlayerOK1:MalePrototype2:rightThumb2/PlayerOK1:MalePrototype2:rightThumb3
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:back1/PlayerOK1:MalePrototype2:back2/PlayerOK1:MalePrototype2:back3/PlayerOK1:MalePrototype2:back4/PlayerOK1:MalePrototype2:rightClavicle/PlayerOK1:MalePrototype2:rightShoulder/PlayerOK1:MalePrototype2:rightElbow/PlayerOK1:MalePrototype2:rightWrist/PlayerOK1:MalePrototype2:rightThumb1/PlayerOK1:MalePrototype2:rightThumb2/PlayerOK1:MalePrototype2:rightThumb3/PlayerOK1:MalePrototype2:rightThumb4
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:leftHip
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:leftHip/PlayerOK1:MalePrototype2:leftKnee
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:leftHip/PlayerOK1:MalePrototype2:leftKnee/PlayerOK1:MalePrototype2:leftAnkle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:leftHip/PlayerOK1:MalePrototype2:leftKnee/PlayerOK1:MalePrototype2:leftAnkle/PlayerOK1:MalePrototype2:leftFoot
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:leftHip/PlayerOK1:MalePrototype2:leftKnee/PlayerOK1:MalePrototype2:leftAnkle/PlayerOK1:MalePrototype2:leftFoot/PlayerOK1:MalePrototype2:leftToe
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:rightHip
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:rightHip/PlayerOK1:MalePrototype2:rightKnee
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:rightHip/PlayerOK1:MalePrototype2:rightKnee/PlayerOK1:MalePrototype2:rightAnkle
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:rightHip/PlayerOK1:MalePrototype2:rightKnee/PlayerOK1:MalePrototype2:rightAnkle/PlayerOK1:MalePrototype2:rightFoot
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:root/PlayerOK1:MalePrototype2:hip/PlayerOK1:MalePrototype2:rightHip/PlayerOK1:MalePrototype2:rightKnee/PlayerOK1:MalePrototype2:rightAnkle/PlayerOK1:MalePrototype2:rightFoot/PlayerOK1:MalePrototype2:rightToe
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:MalePrototype2:JOINTS/PlayerOK1:MalePrototype2:spineCurve
+        weight: 1
+      - path: PlayerOK1:GROUP/PlayerOK1:Poly
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

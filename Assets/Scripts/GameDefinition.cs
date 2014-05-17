@@ -7,6 +7,7 @@ public class GameDefinition
     public const int Animation_HalfSpeed = 2;
     public const int Animation_QuaterSpeed = 1;
     public static PlayActionType ActionType = PlayActionType.足內側向上踢;
+    public const bool ActionLoop = false;
 
     public enum ButtonEvent
     {

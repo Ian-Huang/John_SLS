@@ -3,6 +3,8 @@ using System.Collections;
 
 public class RightCameraController : MonoBehaviour
 {
+    public GameObject RightWindowNameObject;
+
     public GameObject 影片位置;
     public GameObject 動畫側視圖位置;
     public GameObject 動畫正視圖位置;
@@ -22,22 +24,27 @@ public class RightCameraController : MonoBehaviour
             case ViewType.動畫側視圖:
                 this.transform.position = this.動畫側視圖位置.transform.position;
                 this.transform.rotation = this.動畫側視圖位置.transform.rotation;
+                this.RightWindowNameObject.GetComponent<TextMesh>().text = "動畫-側視圖";
                 break;
             case ViewType.動畫正視圖:
                 this.transform.position = this.動畫正視圖位置.transform.position;
                 this.transform.rotation = this.動畫正視圖位置.transform.rotation;
+                this.RightWindowNameObject.GetComponent<TextMesh>().text = "動畫-正視圖";
                 break;
             case ViewType.動畫透視圖:
                 this.transform.position = this.動畫透視圖位置.transform.position;
                 this.transform.rotation = this.動畫透視圖位置.transform.rotation;
+                this.RightWindowNameObject.GetComponent<TextMesh>().text = "動畫-透視圖";
                 break;
             case ViewType.影片側視圖:
                 this.transform.position = this.影片位置.transform.position;
                 this.transform.rotation = this.影片位置.transform.rotation;
+                this.RightWindowNameObject.GetComponent<TextMesh>().text = "影片-側視圖";
                 break;
             case ViewType.影片正視圖:
                 this.transform.position = this.影片位置.transform.position;
                 this.transform.rotation = this.影片位置.transform.rotation;
+                this.RightWindowNameObject.GetComponent<TextMesh>().text = "影片-正視圖";
                 break;
             default:
                 break;

@@ -25,8 +25,10 @@ public class MovieController : MonoBehaviour
     {
         this.Moviedata = this.MovieDataList.Find((MovieData data) => { if (data.ActionType == GameDefinition.ActionType) return true; else return false; });
         this.isPlaying = false;
-        //this.movie.loop = true;
+
         this.CurrentMovieTexture = this.Moviedata.NormalFrontMovie;
+        this.CurrentMovieTexture.loop = GameDefinition.ActionLoop;
+
         this.renderer.material.mainTexture = this.CurrentMovieTexture;
     }
 
@@ -80,7 +82,9 @@ public class MovieController : MonoBehaviour
             }
         }
 
+        this.CurrentMovieTexture.loop = GameDefinition.ActionLoop;
         this.renderer.material.mainTexture = this.CurrentMovieTexture;
+
         if (this.isPlaying)
         {
             this.CurrentMovieTexture.Play();
@@ -142,7 +146,9 @@ public class MovieController : MonoBehaviour
             }
         }
 
+        this.CurrentMovieTexture.loop = GameDefinition.ActionLoop;
         this.renderer.material.mainTexture = this.CurrentMovieTexture;
+
         if (this.isPlaying)
         {
             this.CurrentMovieTexture.Play();
@@ -180,12 +186,12 @@ public class MovieController : MonoBehaviour
         }
     }
 
-    public void RePlayMovie()
+    public void RePlayMovie(MovieSpeedType speedType = MovieSpeedType.NormalSpeed)
     {
         this.CurrentMovieTexture.Stop();
         this.CurrentMovieTexture.Play();
         this.isPlaying = true;
-        this.ChangeMovieTexture(MovieSpeedType.NormalSpeed);
+        this.ChangeMovieTexture(speedType);
     }
 
     public void PauseMovie()

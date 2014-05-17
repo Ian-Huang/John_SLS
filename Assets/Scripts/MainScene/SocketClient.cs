@@ -121,6 +121,7 @@ public class SocketClient : MonoBehaviour
             print(this.readString);
             //字串判定
             string[] reStringSplit = this.readString.Split(':'); //動作字串分析 [0] ，以":"做區隔
+
             switch (reStringSplit[0])
             {
                 case "RecognizedWord":     //刪除圖片(接收Server發送的刪除單字)
@@ -199,6 +200,14 @@ public class SocketClient : MonoBehaviour
                         default:
                             break;
                     }
+                    break;
+                case "Error":     //刪除圖片(接收Server發送的刪除單字)
+                    string[] reErrorWordSplit = reStringSplit[1].Split(',');
+                    this.SpeakInstructionObject.GetComponent<TextMesh>().text = reErrorWordSplit[0];
+                    break;
+                case "Success":     //刪除圖片(接收Server發送的刪除單字)
+                    string[] reSuccessWordSplit = reStringSplit[1].Split(',');
+                    this.SpeakInstructionObject.GetComponent<TextMesh>().text = reSuccessWordSplit[0];
                     break;
                 default:
                     break;
