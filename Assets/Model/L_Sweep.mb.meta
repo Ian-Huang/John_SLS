@@ -174,6 +174,9 @@ ModelImporter:
     100336: pSphere4
     100338: Shuttleball
     100340: group1
+    100342: group2
+    100344: ShuttleballControl
+    100346: shuttleballOK1:pSphere4
     400000: CourtOK:bench1
     400002: CourtOK:bench2
     400004: CourtOK:bench3
@@ -345,6 +348,9 @@ ModelImporter:
     400336: pSphere4
     400338: Shuttleball
     400340: group1
+    400342: group2
+    400344: ShuttleballControl
+    400346: shuttleballOK1:pSphere4
     2300000: CourtOK:bench1
     2300002: CourtOK:bench2
     2300004: CourtOK:bench3
@@ -393,6 +399,7 @@ ModelImporter:
     2300090: CourtOK:pCylinder44
     2300092: CourtOK:Walls
     2300094: pSphere4
+    2300096: shuttleballOK1:pSphere4
     3300000: CourtOK:bench1
     3300002: CourtOK:bench2
     3300004: CourtOK:bench3
@@ -441,6 +448,7 @@ ModelImporter:
     3300090: CourtOK:pCylinder44
     3300092: CourtOK:Walls
     3300094: pSphere4
+    3300096: shuttleballOK1:pSphere4
     4300000: pSphere4
     4300002: PlayerOK1:Poly
     4300004: CourtOK:courtGround
@@ -490,6 +498,7 @@ ModelImporter:
     4300092: CourtOK:pCylinder43
     4300094: CourtOK:pCylinder44
     4300096: CourtOK:lamp1
+    4300098: shuttleballOK1:pSphere4
     7400000: Take 001
     9500000: //RootNode
     13700000: PlayerOK1:Poly
@@ -501,7 +510,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 1
     optimizeGameObjects: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
